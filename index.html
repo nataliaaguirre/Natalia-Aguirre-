@@ -187,7 +187,7 @@ body.viewer-open{overflow:hidden}.watch-overlay[hidden]{display:none!important}.
 /* Match the outer margins to the space between previews. */
 #work:has(#social:not([hidden]), #long:not([hidden])) {
   --gallery-gap: 16px;
-  margin-inline: calc(50% - 50vw + var(--gallery-gap));
+  margin-inline: calc(50% - var(--page-half, 50vw) + var(--gallery-gap));
 }
 #socialGrid, #longGrid {
   grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--preview-min)), 1fr));
@@ -282,4 +282,10 @@ const navLinks=[...document.querySelectorAll('.site-header nav a')];
 function markNavigation(){let active='work';if(document.getElementById('about').getBoundingClientRect().top<innerHeight*.5)active='about';if(document.getElementById('contact').getBoundingClientRect().top<innerHeight*.65)active='contact';for(const a of navLinks){if(a.hash==='#'+active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')}}
 addEventListener('scroll',markNavigation,{passive:true});markNavigation();document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseLocal();syncAll()});document.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>requestAnimationFrame(syncAll))); 
 
+// Measure the usable page width, excluding any visible scrollbar.
+function updateGalleryWidth() {
+  document.documentElement.style.setProperty('--page-half', document.documentElement.clientWidth / 2 + 'px');
+}
+updateGalleryWidth();
+new ResizeObserver(updateGalleryWidth).observe(document.documentElement);
 </script></body></html>
