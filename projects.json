@@ -205,17 +205,6 @@
     "mediaFormat": "feed"
   },
   {
-    "id": "new-long-01",
-    "cat": "long",
-    "name": "Treasure Hunting — A Gold Ring?",
-    "type": "Social long-form · Selected work",
-    "fullVideo": "assets/new-long-01.mp4",
-    "thumb": "assets/new-long-01.jpg",
-    "role": "Editing",
-    "description": "Selected video edit.",
-    "mediaFormat": "feed"
-  },
-  {
     "id": "new-long-02",
     "cat": "long",
     "name": "Travel — Selected Edit",
@@ -277,6 +266,17 @@
     "type": "Social long-form · Selected work",
     "fullVideo": "assets/new-long-07.mp4",
     "thumb": "assets/new-long-07.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
+    "id": "new-long-01",
+    "cat": "long",
+    "name": "Treasure Hunting — A Gold Ring?",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-01.mp4",
+    "thumb": "assets/new-long-01.jpg",
     "role": "Editing",
     "description": "Selected video edit.",
     "mediaFormat": "feed"
