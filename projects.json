@@ -1,5 +1,115 @@
 [
   {
+    "id": "new-short-01",
+    "cat": "social",
+    "name": "Travel — Theme Park",
+    "type": "Short-form · Selected work",
+    "fullVideo": "assets/new-short-01.mp4",
+    "thumb": "assets/new-short-01.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "vertical"
+  },
+  {
+    "id": "new-short-02",
+    "cat": "social",
+    "name": "Urbex — Exploring an Abandoned Building",
+    "type": "Short-form · Selected work",
+    "fullVideo": "assets/new-short-02.mp4",
+    "thumb": "assets/new-short-02.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "vertical"
+  },
+  {
+    "id": "new-short-03",
+    "cat": "social",
+    "name": "Aviation — Airbus A330",
+    "type": "Short-form · Selected work",
+    "fullVideo": "assets/new-short-03.mp4",
+    "thumb": "assets/new-short-03.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "vertical"
+  },
+  {
+    "id": "new-long-01",
+    "cat": "long",
+    "name": "Treasure Hunting — A Gold Ring?",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-01.mp4",
+    "thumb": "assets/new-long-01.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
+    "id": "new-long-02",
+    "cat": "long",
+    "name": "Travel — Selected Edit",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-02.mp4",
+    "thumb": "assets/new-long-02.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
+    "id": "new-long-03",
+    "cat": "long",
+    "name": "Travel — Ghost City",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-03.mp4",
+    "thumb": "assets/new-long-03.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
+    "id": "new-long-04",
+    "cat": "long",
+    "name": "Beauty — Activewear",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-04.mp4",
+    "thumb": "assets/new-long-04.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
+    "id": "new-long-05",
+    "cat": "long",
+    "name": "Travel — On the Road",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-05.mp4",
+    "thumb": "assets/new-long-05.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
+    "id": "new-long-06",
+    "cat": "long",
+    "name": "Aviation — Mountain Airport",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-06.mp4",
+    "thumb": "assets/new-long-06.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
+    "id": "new-long-07",
+    "cat": "long",
+    "name": "Travel — Scooter Ride",
+    "type": "Social long-form · Selected work",
+    "fullVideo": "assets/new-long-07.mp4",
+    "thumb": "assets/new-long-07.jpg",
+    "role": "Editing",
+    "description": "Selected video edit.",
+    "mediaFormat": "feed"
+  },
+  {
     "id": "short5",
     "cat": "social",
     "name": "Short 5",
